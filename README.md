@@ -2,6 +2,10 @@
 
 This is the official github repository of DSE 220 (Spring'19).
 
+[CloudSecure Vendor Evaluation](https://gist.github.com/rphanu/5c553ee6813aea83c856bcf735d7ec3c)
+
+
+
 ### Useful links for Git
 
 * [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
