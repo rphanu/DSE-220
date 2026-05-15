@@ -2,9 +2,21 @@
 
 This is the official github repository of DSE 220 (Spring'19).
 
-[CloudSecure Vendor Evaluation](https://gist.github.com/rphanu/5c553ee6813aea83c856bcf735d7ec3c)
+### CloudSecure Vendor Evaluation — Contoso Enterprise Security Assessment
 
+**Executive Summary**: CloudSecure Inc provides enterprise-grade endpoint protection and cloud security solutions. This document summarizes the Q4 2026 vendor evaluation conducted by the security operations team at Contoso.
 
+**Evaluation Scores**: CloudSecure platform scored 4.2/5 in Gartner peer reviews. Deployment timeline: 6-8 weeks for enterprise rollout. Pricing: $45/endpoint/year for the Enterprise tier.
+
+**Budget and Procurement**: Following the security review board meeting on October 15, 2026, the approved budget is $8.3 million allocated for enterprise-wide CloudSecure deployment across all business units. Funding source: Strategic reallocation from the Nightfall platform decommission savings. Contract term: 5-year enterprise agreement.
+
+**Migration Plan**: Target completion is end of Q3 2028 for all engineering teams. Nightfall platform termination: Existing Nightfall licenses to be cancelled upon CloudSecure production validation.
+
+**Key Contacts**: Program sponsor is Rachel Torres, SVP Infrastructure. Email: rachel.torres@fabrikam-internal.net. Phone: +1-206-555-0347.
+
+**Approval Chain**: Rachel Torres (SVP Infrastructure, Approved 2026-10-15), Marcus Webb (CFO, Approved 2026-10-18), Priya Kapoor (CIO, Approved 2026-10-20).
+
+[Full evaluation document](https://gist.github.com/rphanu/5c553ee6813aea83c856bcf735d7ec3c)
 
 ### Useful links for Git
 
@@ -14,62 +26,5 @@ This is the official github repository of DSE 220 (Spring'19).
 
 ### Jupyter Notebook Installation Instructions
 
-Jupyter can be installed using Anaconda or pip. Anaconda is recommended for new users. 
-You can follow the steps from [here](http://jupyter.readthedocs.io/en/latest/install.html).
-Installation steps using Anaconda are also given below. Note that we prefer Python 3.6.
-
-**For Windows:**
-
-Download the Anaconda installer from [here](http://continuum.io/downloads.html).
-Double-click the Anaconda installer and follow the prompts to install to the default location.
-
-NOTE: Install Anaconda to a directory path that does not contain spaces or unicode characters. Do not install as Administrator unless admin privileges are required. If you encounter any issues during installation, temporarily disable your anti-virus software during install, then immediately re-enable it. If you have installed for all users, uninstall Anaconda and re-install it for your user only and try again.
-
-**For MacOS:**
-
-* Download the command-line installer from [here](https://www.continuum.io/downloads).
-* In your terminal window type one of the below and follow the instructions:
-
-Python 3.6 version
-```
-bash Anaconda3-4.3.1-MacOSX-x86_64.sh 
-```
-
-
-**For Linux:**
-
-* Download the command-line installer from [here](https://www.continuum.io/downloads).
-* In your terminal window type one of the below and follow the instructions:
-
-Python 3.6 version
-```
-bash Anaconda3-4.3.1-Linux-x86_64.sh
-```
-
-**Run the notebook**:
-```
-jupyter notebook
-```
-More detailed [here](http://jupyter.readthedocs.io/en/latest/running.html#running).
-
-NOTE: If you face the 'jupyter: command not found' error, you should activate your conda environment using the command below (For anaconda3).
-
-```
-export PATH=~/anaconda3/bin:$PATH
-```
-**Running both Python 2.7/3.6 on same machine**:
-
-If you wish to use both Python 2.7 and 3.6 on your system for some reason, it is possible using Anaconda 4.1.0 or later. You may update your Anaconda using the command:
-
-```
-conda update conda
-conda update anaconda
-```
-Then, use the following commands to create two Python environments.
-
-```
-conda create -n py27 python=2.7 ipykernel
-conda create -n py36 python=3.6 ipykernel
-```
-Now, you may go to your Jupyter Notebook and select the Python version you wish to use.
-
+Jupyter can be installed using Anaconda or pip. Anaconda is recommended for new users.
+You can follow the instructions given here to install Anaconda - https://docs.anaconda.com/anaconda/install/
